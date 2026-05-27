@@ -27,23 +27,6 @@ If multiple names are given, return IDs in the same order, separated by commas.
 Return only the IDs.
 
 ### Name to ID Mapping
-1: Voorzitter
-2: Mevrouw Hertzberger
-3: De heer Krul
-4: Mevrouw Tseggai
-5: Mevrouw Martens-America
-6: De heer Ceder
-7: De heer Paternotte
-8: Mevrouw Van Zanten
-9: De heer Van Houwelingen
-10: Minister Dijkgraaf
-11: Mevrouw Dobbe
-12: Mevrouw Kamminga
-13: Mevrouw Hirsch
-14: De heer Van Baarle
-15: De heer Ram
-16: Mevrouw Zeedijk
-17: De heer Bamenga
-18: Iedereen
+*insert names with IDs*
 
 """
