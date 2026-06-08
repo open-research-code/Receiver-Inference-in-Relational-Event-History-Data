@@ -28,7 +28,7 @@ The implementation is applied to Dutch parliamentary debate transcripts and supp
 ```text
 ├── Prompts/                           
 │   ├── Baseline_prompt.py   
-│   ├── Zero_shot_prompt.py   
+│   ├── Detailed_prompt.py   
 │   ├── Few_shot_prompt.py    
 ├── Code/
 │   ├── Inference.py                   # API calls for receiver prediction
