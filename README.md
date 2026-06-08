@@ -16,9 +16,10 @@ Relational Event History (REH) datasets often include information about **who sp
 - Infer receivers using an API  
 - Construct directed communication networks  
 - Evaluate predictions at both the **turn level** and **network level**  
-- Analyze model confidence and uncertainty  
+- Analyze model confidence and uncertainty
+- Conduct Relational Event Model (REM) analyses on the resulting interaction data 
 
-The implementation is applied to Dutch parliamentary debate transcripts.
+The implementation is applied to Dutch parliamentary debate transcripts and supports both receiver inference and downstream relational event analysis.
 
 ---
 
