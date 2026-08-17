@@ -37,3 +37,12 @@ The implementation is applied to Dutch parliamentary debate transcripts and supp
 │   ├── Statistics.py                  # Calculated statistics, self-assessed confidence scores and logprob analysis 
 │   ├── Rem_analysis.py                # Relational event analysis
 └── README.md
+
+---
+
+**## Reproducing Results**
+Run notebooks
+Run in numerical order.
+
+**## License**
+This project is released under the MIT License. See LICENSE for details.
