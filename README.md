@@ -31,18 +31,18 @@ The implementation is applied to Dutch parliamentary debate transcripts and supp
 │   ├── Detailed_prompt.py   
 │   ├── Few_shot_prompt.py    
 ├── Code/
-│   ├── Inference.py                   # API calls for receiver prediction
-│   ├── Turn_level_evaluation.py       # Turn-level evaluation metrics
-│   ├── Network_level_evaluation.py    # Network construction and analysis
-│   ├── Statistics.py                  # Calculated statistics, self-assessed confidence scores and logprob analysis 
-│   ├── Rem_analysis.py                # Relational event analysis
+│   ├── 1_Inference.py                   # API calls for receiver prediction
+│   ├── 2_Turn_level_evaluation.py       # Turn-level evaluation metrics
+│   ├── 3_Network_level_evaluation.py    # Network construction and analysis
+│   ├── 4_Statistics.py                  # Calculated statistics, self-assessed confidence scores and logprob analysis 
+│   ├── 5_Rem_analysis.py                # Relational event analysis
 └── README.md
-
+```
 ---
 
-**## Reproducing Results**
+## Reproducing Results
 Run notebooks
 Run in numerical order.
 
-**## License**
+## License
 This project is released under the MIT License. See LICENSE for details.
