@@ -45,4 +45,4 @@ Run notebooks
 Run in numerical order.
 
 ## License
-This project is released under the MIT License. See \href{https://github.com/open-research-code/Receiver-Inference-in-Relational-Event-History-Data/edit/main/LICENSE.md}{LICENSE} for details.
+This project is released under the MIT License. See [LICENSE](LICENSE.md) for details.
