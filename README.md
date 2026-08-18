@@ -24,20 +24,38 @@ The implementation is applied to Dutch parliamentary debate transcripts and supp
 ---
 
 ## Repository Structure
-
 ```text
-├── Prompts/                           
-│   ├── Baseline_prompt.py   
-│   ├── Detailed_prompt.py   
-│   ├── Few_shot_prompt.py    
+├── Prompts/
+│   ├── Baseline_prompt.py
+│   ├── Detailed_prompt.py
+│   └── Few_shot_prompt.py
+│
 ├── Code/
 │   ├── 1_Inference.py                   # API calls for receiver prediction
 │   ├── 2_Turn_level_evaluation.py       # Turn-level evaluation metrics
 │   ├── 3_Network_level_evaluation.py    # Network construction and analysis
-│   ├── 4_Statistics.py                  # Calculated statistics, self-assessed confidence scores and logprob analysis 
-│   ├── 5_Rem_analysis.py                # Relational event analysis
+│   ├── 4_Statistics.py                  # Statistics, self-assessed confidence scores, and logprob analysis
+│   └── 5_Rem_analysis.py                # Relational event analysis
+│
+├── Data/
+│   ├── Decoding/
+│   │   ├── ID_debate_1.csv              # Mapping of speaker IDs to speaker names for Debate 1
+│   │   ├── ID_debate_2.csv              # Mapping of speaker IDs to speaker names for Debate 2
+│   │   ├── ID_debate_3.csv              # Mapping of speaker IDs to speaker names for Debate 3
+│   │   ├── ID_debate_4.csv              # Mapping of speaker IDs to speaker names for Debate 4
+│   │
+│   └── Labeled_data/
+│       ├── Debate_1.csv                 # Debate 1 with hand-annotated receivers (ground truth)
+│       ├── Debate_2.csv                 # Debate 2 with hand-annotated receivers (ground truth)
+│       ├── Debate_3.csv                 # Debate 3 with hand-annotated receivers (ground truth)
+│       ├── Debate_4.csv                 # Debate 4 with hand-annotated receivers (ground truth)
+│       ├── Last_speaker.csv             # Receiver predictions based on the last speaker
+│       └── Recently_mentioned_participant.csv # Receiver predictions based on the recently mentioned participant
+│
+├── LICENSE.md
 └── README.md
-```
+````
+
 ---
 
 ## Reproducing Results
