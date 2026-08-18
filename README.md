@@ -41,7 +41,7 @@ The implementation is applied to Dutch parliamentary debate transcripts and supp
 ---
 
 ## Reproducing Results
-Run notebooks
+Run code.
 Run in numerical order.
 
 ## License
