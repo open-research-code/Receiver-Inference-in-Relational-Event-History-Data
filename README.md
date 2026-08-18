@@ -35,7 +35,6 @@ The implementation is applied to Dutch parliamentary debate transcripts and supp
 │   ├── 2_Turn_level_evaluation.py       # Turn-level evaluation metrics
 │   ├── 3_Network_level_evaluation.py    # Network construction and analysis
 │   ├── 4_Statistics.py                  # Statistics, self-assessed confidence scores, and logprob analysis
-│   └── 5_Rem_analysis.py                # Relational event analysis
 │
 ├── Data/
 │   ├── Decoding/
